@@ -1,32 +1,30 @@
-//if kula ennoru conidtion venum na nested if
-//if elame neraiya condition ku else if 
-import java.util.Scanner;
 public class nestedif {
-    public static void main(String[] args) {
-         Scanner scholar = new Scanner(System.in);
-         System.out.println("enter your gpa");
-         double gpa = scholar.nextDouble();
-         System.out.println("enter your finanicial need true/false?");
-         boolean financialneed = scholar.nextBoolean();
 
-    if(gpa>8.5){
-        if(financialneed){
-            System.out.println("your eligible for full scholarship");
-        }
-        else{
-            System.out.println("you are eligible for merit scholarship");
-        }
+
+    public static void main (String []args)
+    {
+        boolean kfc=false;
+        boolean chicken=true;
+        boolean pepsi=true;
+
+        
+    if(kfc){
+        System.out.println("I am going to KFC");
     }
-    else if (gpa>6.0) {
-        if(financialneed){
-            System.out.println("your are eligible for partial scholarship as per your financial need");
-        }
-        else{
-            System.out.println("you didnt get any scholarship");
-        }
-    }
-    else{
-        System.out.println("your are not eligibe for scholarship");
-    }
-    }
+
+    if(chicken){
+        System.out.println("I am going to eat chicken");
+
+
+if(pepsi){
+    System.out.print("I am going to drink pepsi");
 }
+
+}
+    }
+    
+}
+
+
+
+
